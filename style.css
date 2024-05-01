@@ -1,0 +1,105 @@
+html{
+    background-color: #254252;
+}
+header{
+    
+    padding: auto;
+    margin: auto;
+    
+}
+header>ul{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: #f9982f;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 40px;
+}
+
+header>ul>li a:hover{
+    color: #e37239;
+    cursor: pointer;
+    transition: all 1.5s;
+    font-size: xx-large;
+}
+main{
+    background-color: #171c2d;
+    
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+.artigo1{
+    display: grid;
+    padding: 5px;
+}
+.titulo1{
+    grid-area: titulo1;
+    padding: 5px;
+    color: #e37239;
+    
+}
+.corpo1{
+    grid-area: corpo1;
+    padding: 5px;
+    color: #f9982f;
+}
+.imagem1{
+    grid-area: imagem1;
+    padding: 5px;
+}
+
+.artigo1{
+    grid-template-areas: 
+    "imagem1 titulo1 titulo1"
+    "imagem1 corpo1 corpo1";
+}
+
+.artigo2{
+    display: grid;
+    padding: 5px;
+}
+.titulo2{
+    grid-area: titulo2;
+    padding: 5px;
+    color: #e37239;
+    
+}
+.corpo2{
+    grid-area: corpo2;
+    padding: 5px;
+    color: #f9982f;
+}
+.imagem2{
+    grid-area: imagem2;
+    padding: 5px;
+}
+
+.artigo2{
+    grid-template-areas: 
+    "imagem2 titulo2 titulo2"
+    "imagem2 corpo2 corpo2";
+}
+section{
+    border-color: #e3723979;
+    border-style: solid;
+}
+
+
+
+
+
+footer{
+    background-color: #171c2d;
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 10px;
+    color: #f9982f;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
